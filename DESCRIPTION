@@ -1,0 +1,31 @@
+Package: macroecohelpers
+Type: Package
+Title: Helpers for Macroecology and Trait-Evolution Analysis
+Version: 0.1.0
+Authors@R:
+    person("Jacob", "Idec", email = "jacob.idec@ufl.edu", role = c("aut", "cre"))
+Description: Reusable helpers for macroecology and trait-evolution analysis:
+    binding climate, spatial, temporal, and taxonomic covariates to occurrence
+    data frames, matching data to phylogenies, and fitting and plotting the
+    models that follow.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 4.1.0)
+Imports:
+    ape,
+    cli,
+    dplyr (>= 1.1.0),
+    lubridate,
+    rlang,
+    stats,
+    tibble
+Suggests:
+    elevatr,
+    sf,
+    solartime,
+    terra,
+    testthat (>= 3.1.5)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
